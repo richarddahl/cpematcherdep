@@ -1,2 +1,2 @@
-natsort==6.0.0
-fastnumbers==2.2.1
+natsort==8.3.1
+fastnumbers==5.0.1
