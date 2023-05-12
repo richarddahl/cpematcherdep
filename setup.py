@@ -21,22 +21,22 @@ dependency_links = [
 ]
 
 setup(
-    name="cpematcher",
+    name="cpematcherdep",
     version=__version__,
-    description="Match CPEs between them.",
+    description="Fork of alertot/cpematcher: Matches CPE Names and any Deprecated CPE Names.",
     long_description=long_description,
-    url="https://github.com/alertot/cpematcher",
-    download_url="https://github.com/alertot/cpematcher/tarball/" + __version__,
+    url="https://github.com/richarddahl/cpematcherdep",
+    download_url="https://github.com/richarddahl/cpematcherdep/tarball/" + __version__,
     license="BSD",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.10",
     ],
     keywords="",
     packages=find_packages(exclude=["docs", "tests*"]),
     include_package_data=True,
-    author="alertot SpA",
+    author="cmplid:// Inc.",
     install_requires=install_requires,
     dependency_links=dependency_links,
 )
